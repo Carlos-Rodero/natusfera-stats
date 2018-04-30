@@ -1,0 +1,54 @@
+h1 {
+    color: rgb(131, 181, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 350%;
+    text-align: center;
+  }
+
+  h1 .grey{
+    color: rgb(90, 90, 92);
+  }
+
+  nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  nav a:visited, a:link {
+    color: #607D8B;
+  }
+  nav a:hover {
+    color: #039be5;
+    background-color: #CFD8DC;
+  }
+  nav a.active {
+    color: #039be5;
+  }
+
+
+
+
+
+
+
+
+  /* Application-wide Styles */
+  h2, h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  body {
+    margin: 2em;
+  }
+  body, input[text], button {
+    color: #888;
+    font-family: Cambria, Georgia;
+  }
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }

@@ -1,0 +1,11 @@
+<h3>Top Data</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let data of data_list" class="col-1-4"
+    routerLink="/detail/{{data.id}}">
+    <div class="module data">
+      <h4>{{data.name}}</h4>
+    </div>
+  </a>
+</div>
+
+<app-data-search></app-data-search>
