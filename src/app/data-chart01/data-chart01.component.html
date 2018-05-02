@@ -1,0 +1,33 @@
+<div *ngIf="isLoading" class="loading">
+    <img src="assets/images/loading.gif" />
+</div>
+
+<div *ngIf="isLoading_Barcelona" class="loading">
+    <p>Carregant dades de la Biomarató de Barcelona. Siusplau espera una mica</p>
+</div> 
+<div *ngIf="isLoading_Cadiz" class="loading">
+    <p>Carregant dades de la Biomarató de Cadiz. Siusplau espera una mica</p>
+</div> 
+<div *ngIf="isLoading_Madrid" class="loading">
+    <p>Carregant dades de la Biomarató de Madrid. Siusplau espera una mica</p>
+</div> 
+
+<div *ngIf="!isLoading_Barcelona" class="loading">
+    <p>Barcelona: {{total_Barcelona}}</p>
+</div> 
+<div *ngIf="!isLoading_Cadiz" class="loading">
+    <p>Cadiz: {{total_Cadiz}}</p>
+</div> 
+<div *ngIf="!isLoading_Madrid" class="loading">
+    <p>Madrid: {{total_Madrid}}</p>
+</div> 
+
+<div *ngIf="!isLoading_Madrid && !isLoading_Cadiz && !isLoading_Barcelona" class="loading">
+    <button (click)="chart_CNC()">Plot</button>
+</div> 
+
+<div #chartCNC class="chart">
+</div>
+
+
+

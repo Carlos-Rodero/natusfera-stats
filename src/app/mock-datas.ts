@@ -1,5 +1,5 @@
 import { Data } from './data';
-
+/*
 export const DATAS: Data[] = [
   { id: 11, name: 'Mr. Nice' },
   { id: 12, name: 'Narco' },
@@ -11,4 +11,4 @@ export const DATAS: Data[] = [
   { id: 18, name: 'Dr IQ' },
   { id: 19, name: 'Magma' },
   { id: 20, name: 'Tornado' }
-];
+];*/
